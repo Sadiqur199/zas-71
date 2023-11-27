@@ -1,18 +1,13 @@
-import Link from "next/link";
-import React from "react";
-import { CiMail } from "react-icons/ci";
-import { IoMdNotificationsOutline } from "react-icons/io";
-import { CiCircleQuestion } from "react-icons/ci";
+import React from 'react';
 
-
-
-const Header = () => {
+const Course = () => {
   return (
-    <div className="flex">
-      <div>
-        <ul className="flex">
-        <li>
-              <a className="font-bold mr-5">Dashboard</a>
+    <div>
+            <div className="navbar">
+        <div className="navbar ml-[-250px]">
+          <ul className="menu menu-horizontal ">
+            <li>
+              <a className="font-bold">Dashboard</a>
             </li>
             <li>
                 <input
@@ -21,11 +16,9 @@ const Header = () => {
                   className="input input-bordered  rounded-full w-24 md:w-[183px] md:h-[36px] hover:bg-white"
                 />
             </li>
-        </ul>
-      </div>
-
-      <div className="md:ml-[750px]">
-      <div className="flex">
+          </ul>
+        </div>
+        <div className="navbar-end">
           <a href="" className="underline text-blue-600 md:mr-8">Become a Mentor</a>
           <a href="" className="md:mr-5"><CiMail  className="h-[25px] w-[25px]"/></a>
           <a href="" className="md:mr-5"><IoMdNotificationsOutline className="h-[25px] w-[25px]"/></a>
@@ -36,4 +29,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Course;

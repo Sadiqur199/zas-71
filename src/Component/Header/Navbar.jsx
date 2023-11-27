@@ -17,7 +17,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="join md:ml-[530px]">
+          <div className="join md:ml-[515px]">
             <div>
               <div>
                 <input
@@ -26,8 +26,8 @@ const Navbar = () => {
                 />
               </div>
             </div>
-            <select className="select select-bordered w-[205px] h-[30px] mr-5 rounded-full">
-              <option disabled value="" defaultValue="">
+            <select className="select select-bordered w-[200px] h-[36px] mr-5 rounded-full">
+              <option value="" defaultValue="">
                 Filter
               </option>
               <option value="Sci-fi">Sci-fi</option>

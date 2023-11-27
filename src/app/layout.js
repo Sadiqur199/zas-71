@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="flex mt-5">
-          <div className="mr-[100px]">
+          <div className="mr-[100px] ml-4">
             <FirstHeader></FirstHeader>
           </div>
           <div>

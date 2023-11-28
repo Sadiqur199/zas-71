@@ -24,7 +24,7 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="md:ml-[720px]">
+      <div className="md:ml-[700px]">
       <div className="flex">
           <a href="" className="underline text-blue-600 md:mr-8">Become a Mentor</a>
           <a href="" className="md:mr-5"><CiMail  className="h-[25px] w-[25px]"/></a>

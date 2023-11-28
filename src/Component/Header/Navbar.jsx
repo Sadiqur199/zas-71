@@ -7,17 +7,17 @@ const Navbar = () => {
         <div className="flex-none">
           <ul className="flex">
             <li className="mr-5">
-              <a>Link</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Mentors</a>
             </li>
             <li className="mr-5">
-              <a>Link</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Cleasses</a>
             </li>
             <li className="mr-5">
-              <a>Link</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Institutions</a>
             </li>
           </ul>
 
-          <div className="join md:ml-[515px]">
+          <div className="join md:ml-[370px]">
             <div>
               <div>
                 <input

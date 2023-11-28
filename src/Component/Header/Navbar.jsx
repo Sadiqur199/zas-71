@@ -7,13 +7,13 @@ const Navbar = () => {
         <div className="flex-none">
           <ul className="flex">
             <li className="mr-5">
-              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Mentors</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold hover:border-b-2 hover:border-[#5A5BCB]">Mentors</a>
             </li>
             <li className="mr-5">
-              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Cleasses</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold hover:border-b-2 hover:border-[#5A5BCB]">Cleasses</a>
             </li>
             <li className="mr-5">
-              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold">Institutions</a>
+              <a className="text-[#959595] hover:text-[#5A5BCB] hover:font-bold hover:border-b-2 hover:border-[#5A5BCB]">Institutions</a>
             </li>
           </ul>
 

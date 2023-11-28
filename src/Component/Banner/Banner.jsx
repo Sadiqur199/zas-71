@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="text-white space-y-4 pl-16 w-1/2">
               <h1 className="w-[196px] h-[32px] mb-10">Trending topics</h1>
               <h1 className="w-[100px] h-[25px] text-sm mt-10">Free course</h1>
-              <h2 className="text-6xl font-semibold">
+              <h2 className="text-4xl font-semibold">
               Psycological nforcements to our Brain
               </h2>
               <p className="text-sm">
@@ -42,7 +42,7 @@ const Banner = () => {
           <div className="text-white space-y-4 pl-16 w-1/2">
               <h1 className="w-[196px] h-[32px] mb-10">Trending topics</h1>
               <h1 className="w-[100px] h-[25px] text-sm mt-10">Free course</h1>
-              <h2 className="text-6xl font-semibold">
+              <h2 className="text-4xl font-semibold">
               Psycological nforcements to our Brain
               </h2>
               <p className="text-sm">
@@ -73,7 +73,7 @@ const Banner = () => {
           <div className="text-white space-y-4 pl-16 w-1/2">
               <h1 className="w-[196px] h-[32px] mb-10">Trending topics</h1>
               <h1 className="w-[100px] h-[25px] text-sm mt-10">Free course</h1>
-              <h2 className="text-6xl font-semibold">
+              <h2 className="text-4xl font-semibold">
               Psycological nforcements to our Brain
               </h2>
               <p className="text-sm">
@@ -104,7 +104,7 @@ const Banner = () => {
           <div className="text-white space-y-4 pl-16 w-1/2">
               <h1 className="w-[196px] h-[32px] mb-10">Trending topics</h1>
               <h1 className="w-[100px] h-[25px] text-sm mt-10">Free course</h1>
-              <h2 className="text-6xl font-semibold">
+              <h2 className="text-4xl font-semibold">
               Psycological nforcements to our Brain
               </h2>
               <p className="text-sm">

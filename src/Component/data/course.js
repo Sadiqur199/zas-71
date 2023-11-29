@@ -1,4 +1,4 @@
-const Course = [
+const CourseApi = [
   {
     "id": 1,
     "title": "Free Course",
@@ -65,28 +65,7 @@ const Course = [
     "Publish": 2023,
     "courseT": "Akib"
   },
-  {
-    "id": 7,
-    "title": "Free Course",
-    "img": "https://i.ibb.co/n38DHNq/unsplash-Mv9hjn-EUHR4-1.png",
-    "img1": "https://i.ibb.co/dPfBpSy/unsplash-f0-YLss50-Bs.png",
-    "head": "Psycological nforcements to our Brain",
-    "des": "b djfnkanabdjsbmf kdhfmfsd odnsm msjd  jfm  sdkfsn sdfdjddf sdfnsd mdsjesg sd  mf  dfhsds ksdj  sdfs dkahjssd kfnfmd sdlsbsdn sdksdn sdsjd sdnsdms dlbsd fs sfdknf sdfljsni  fdjs jsfnsdm fk mnfmsd sfd",
-    "price": "N/A",
-    "Publish": 2023,
-    "courseT": "Akib"
-  },
-  {
-    "id": 8,
-    "title": "Free Course",
-    "img": "https://i.ibb.co/n38DHNq/unsplash-Mv9hjn-EUHR4-1.png",
-    "img1": "https://i.ibb.co/5spzVvn/unsplash-e-Opewngf68w.png",
-    "head": "Psycological nforcements to our Brain",
-    "des": "b djfnkanabdjsbmf kdhfmfsd odnsm msjd  jfm  sdkfsn sdfdjddf sdfnsd mdsjesg sd  mf  dfhsds ksdj  sdfs dkahjssd kfnfmd sdlsbsdn sdksdn sdsjd sdnsdms dlbsd fs sfdknf sdfljsni  fdjs jsfnsdm fk mnfmsd sfd",
-    "price": "N/A",
-    "Publish": 2023,
-    "courseT": "Akib"
-  }
+  
 ]
 
-export default Course
+export default CourseApi

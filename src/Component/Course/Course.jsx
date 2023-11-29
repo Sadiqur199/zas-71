@@ -1,32 +1,26 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
+import CourseDesign from './CourseDesign';
+import CourseApi from '../data/course';
 
 const Course = () => {
+
   return (
-    <div>
-            <div className="navbar">
-        <div className="navbar ml-[-250px]">
-          <ul className="menu menu-horizontal ">
-            <li>
-              <a className="font-bold">Dashboard</a>
-            </li>
-            <li>
-                <input
-                  type="text"
-                  placeholder="Search"
-                  className="input input-bordered  rounded-full w-24 md:w-[183px] md:h-[36px] hover:bg-white"
-                />
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <a href="" className="underline text-blue-600 md:mr-8">Become a Mentor</a>
-          <a href="" className="md:mr-5"><CiMail  className="h-[25px] w-[25px]"/></a>
-          <a href="" className="md:mr-5"><IoMdNotificationsOutline className="h-[25px] w-[25px]"/></a>
-          <a href="" className="md:mr-5"><CiCircleQuestion className="h-[25px] w-[25px]"/></a>
-        </div>
+    <>
+      <div className='relative flex items-center group'>
+
+         <div  className='w-full h-full'>
+             {
+              CourseApi.map((courses,id)=>(
+                <CourseDesign key={id} course={courses}></CourseDesign>
+              ))
+             }
+         </div>
+
       </div>
-    </div>
+    </>
   );
 };
+
 
 export default Course;

@@ -12,6 +12,10 @@ const FreeEnrollMentCourse = () => {
           <a href="" className='text-[#1B75BB] underline'>See All</a>
         </div>
       </div>
+      {/* Course Card */}
+      <div>
+        
+      </div>
     </div>
   );
 };

@@ -27,7 +27,7 @@ const OtherCourseEnrollment = () => {
       {/* Course Card */}
       <div className="grid grid-cols-5 gap-2">
         {CourseApi.slice(0, visibleCards).map((courses, id) => (
-          <div key={courses.id} className="card card-compact w-[250px] ">
+          <div key={courses.id} className="card card-compact w-[250px] mb-8">
             <figure>
               <img
                 src={courses.img1}

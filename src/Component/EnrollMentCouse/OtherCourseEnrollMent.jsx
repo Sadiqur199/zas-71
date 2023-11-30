@@ -13,7 +13,7 @@ const OtherCourseEnrollment = () => {
     <div className="mt-12">
       <div className="flex justify-between">
         <div className="mb-5">
-          <h1 className="font-bold">Free Enrollments</h1>
+          <h1 className="font-bold">Paid Enrollments</h1>
           <p className="text-sm text-gray-400">
             Enrolled 12 dec | Completed 31 Dec
           </p>

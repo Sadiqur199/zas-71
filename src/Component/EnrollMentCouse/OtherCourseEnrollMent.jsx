@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import CourseApi from "../data/course";
 
-const FreeEnrollMentCourse = () => {
+const OtherCourseEnrollment = () => {
   const [visibleCards, setVisibleCards] = useState(5);
 
   const handleSeeAllClick = () => {
@@ -46,4 +46,4 @@ const FreeEnrollMentCourse = () => {
   );
 };
 
-export default FreeEnrollMentCourse;
+export default OtherCourseEnrollment;

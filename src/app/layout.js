@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/Component/Header/Navbar";
 import Footer from "@/Component/Footer/Footer";
 import Header from "@/Component/Header/Header";
 import FirstHeader from "@/Component/Header/FirstHeader";
@@ -22,7 +21,6 @@ export default function RootLayout({ children }) {
           </div>
           <div>
             <Header></Header>
-            <Navbar></Navbar>
             {children}
           </div>
         </div>

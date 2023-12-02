@@ -1,4 +1,4 @@
-import MyClass from '@/Component/MyClass/MyClass';
+import MyClass from '@/Component/MyCourses/MyClass';
 import React from 'react';
 
 const page = () => {

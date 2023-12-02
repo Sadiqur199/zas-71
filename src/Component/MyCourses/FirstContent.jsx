@@ -16,6 +16,12 @@ const FirstContent = () => {
 
         <h1 className='font-bold text-xl w-[700px]  text-[#000000]'>Psycological nforcements to our Brain</h1>
           <p className='w-[700px] text-justify'>Laravel is a PHP based web framework for building high-end web applications using Laravel is a PHP based web framework for building high-end web applications using Laravel is a PHP based web framework for building high-end web applications using </p>
+
+           <div className='mt-10'>
+            <button className='btn bg-[#5A5BCB] hover:bg-[#5A5BCB] text-white w-[150px] h-[20px] mr-8 rounded-full'>Short Courses</button>
+            <button className='btn bg-[#E7E7E7] w-[120px] h-[30px] rounded-full'>Batches</button>
+           </div>
+
         </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import FirstContent from "./FirstContent";
+import SecondContent from "./SecondContent";
 
 const MyClass = () => {
   return (
@@ -24,11 +25,15 @@ const MyClass = () => {
         </div>
 
         {/* second content */}
-        <div className="ml-[200px]">
+        <div className="ml-[170px]">
           <h1 className="font-bold text-xl">Our professional teachers</h1>
           <p className="text-sm text-gray-400">
             Enrolled 12 dec | Completed 31 Dec
           </p>{" "}
+
+          <div>
+            <SecondContent></SecondContent>
+          </div>
         </div>
       </div>
     </div>

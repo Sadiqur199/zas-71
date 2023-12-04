@@ -49,17 +49,17 @@ const FirstContent = () => {
         </p>{" "}
         <div className="mt-8">
           <div className="flex justify-between">
-            <h3 className="underline text-[#010101]">01 to 05 Courses</h3>
+            <h3 className="underline text-[#010101] font-bold text-sm">01 to 05 Courses</h3>
             <FaPlus className="text-gray-500 mr-8" />
           </div>
 
           <div className="flex justify-between mt-7">
-            <h3 className="underline text-[#010101]">05 Courses</h3>
+            <h3 className="underline text-[#010101] font-bold text-sm">05 Courses</h3>
             <FaPlus className="text-gray-500 mr-8" />
           </div>
 
           <div className="flex justify-between mt-7">
-            <h3 className="underline text-[#5A5BCB]">PSC Schedule test</h3>
+            <h3 className="underline text-[#5A5BCB] font-bold text-sm">PSC Schedule test</h3>
             <FaMinus className="text-[#5A5BCB] mr-8" />
           </div>
         </div>
@@ -124,12 +124,12 @@ const FirstContent = () => {
       {/* last content */}
       <div>
         <div className="flex justify-between mt-7">
-          <h3 className="underline text-[#010101]">09 Courses</h3>
+          <h3 className="underline text-[#010101] font-bold text-sm">09 Courses</h3>
           <FaPlus className="text-gray-500 mr-8" />
         </div>
 
         <div className="flex justify-between mt-7">
-          <h3 className="underline text-[#010101]">09 to 10 Courses</h3>
+          <h3 className="underline text-[#010101] font-bold text-sm">09 to 10 Courses</h3>
           <FaPlus className="text-gray-500 mr-8" />
         </div>
       </div>

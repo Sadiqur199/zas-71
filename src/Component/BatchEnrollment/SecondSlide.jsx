@@ -49,12 +49,14 @@ const SecondSlide = () => {
           </div>
         </div>
       </div>
-
+       
       <div>
         <h1 className="font-bold text-xl">Instructions</h1>
         <p className="text-sm text-gray-400">
           Enrolled 12 dec | Completed 31 Dec
         </p>{" "}
+        
+        {/* first question  */}
         <div className="">
         <div key={question[0].id} className="flex mt-8">
             <div>

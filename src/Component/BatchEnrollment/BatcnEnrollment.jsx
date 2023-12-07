@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import Firstcontnet from "./Firstcontnet";
+import SecondSlide from "./SecondSlide";
 
 const BatchEnrollment = () => {
   return (
@@ -38,7 +39,7 @@ const BatchEnrollment = () => {
                 </div>
                 <div className="placeholder">
                   <div className="w-[120px] ml-4 mt-2">
-                    <span>+ 25 people</span>
+                    <span className="text-gray-500">+ 25 people</span>
                   </div>
                 </div>
               </div>
@@ -50,13 +51,9 @@ const BatchEnrollment = () => {
         </div>
 
         {/* second content */}
-        <div className="ml-[170px]">
-          <h1 className="font-bold text-xl">Our professional teachers</h1>
-          <p className="text-sm text-gray-400">
-            Enrolled 12 dec | Completed 31 Dec
-          </p>{" "}
+        <div className="ml-[210px] mt-[40px] ">
           <div>
-            <h1>sadiq</h1>
+            <SecondSlide></SecondSlide>
           </div>
         </div>
       </div>

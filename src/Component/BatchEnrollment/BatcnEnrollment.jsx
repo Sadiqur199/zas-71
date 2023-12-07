@@ -1,50 +1,51 @@
 import React from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
+import Firstcontnet from "./Firstcontnet";
 
 const BatchEnrollment = () => {
   return (
     <div>
       <div className="flex">
-        <div>
+        <div className="w-[667px] h-[375px]">
           <div className="flex justify-between">
             <div>
-              <a href="/" className="flex">
+              <a href="/mycourse" className="flex">
                 <span>
                   <FaLongArrowAltLeft className="mt-1 mr-1" size={20} />
                 </span>
-                <span className="font-bold text-xl">Back To Home</span>
+                <span className="font-bold text-xl">Course Name here </span>
               </a>
               <p className="text-sm text-gray-400">
                 Enrolled 12 dec | Completed 31 Dec
               </p>
             </div>
             <div>
-              <div className="avatar-group -space-x-6 rtl:space-x-reverse">
+              <div className="avatar-group -space-x-4 mt-5 rtl:space-x-reverse">
                 <div className="avatar">
-                  <div className="w-12">
+                  <div className="w-[32px] h-[32px] rounded-full">
                     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                   </div>
                 </div>
                 <div className="avatar">
-                  <div className="w-12">
+                  <div className="w-[32px] h-[32px] rounded-full">
                     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                   </div>
                 </div>
                 <div className="avatar">
-                  <div className="w-12">
+                  <div className="w-[32px] h-[32px] rounded-full">
                     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                   </div>
                 </div>
-                <div className="avatar placeholder">
-                  <div className="w-12 bg-neutral text-neutral-content">
-                    <span>+99</span>
+                <div className="placeholder">
+                  <div className="w-[120px] ml-4 mt-2">
+                    <span>+ 25 people</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <h1>sadiq</h1>
+            <Firstcontnet></Firstcontnet>
           </div>
         </div>
 

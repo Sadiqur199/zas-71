@@ -11,7 +11,7 @@ const FirstHeader = () => {
       <a href="/">
         <img
           className="h-[24px] w-[96px] mt-2"
-          src="https://i.ibb.co/RN6JpSR/Frame-3-1.png"
+          src="https://i.ibb.co/YfMmPbc/logo.png"
           alt=""
         />
       </a>

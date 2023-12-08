@@ -8,13 +8,13 @@ const Firstcontnet = () => {
       <div>
         <div className="artboard artboard-horizontal phone-2 bg-black ">
           <iframe
-            width="666"
+            width="667"
             height="375"
             src="https://www.youtube.com/embed/HcOc7P5BMi4?si=0J6PP7986RKQ3-Y-"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <p className="md:text-justify mt-5">

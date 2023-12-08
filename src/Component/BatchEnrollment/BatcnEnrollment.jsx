@@ -20,7 +20,7 @@ const BatchEnrollment = () => {
                 Enrolled 12 dec | Completed 31 Dec
               </p>
             </div>
-            <div>
+            <div className="">
               <div className="avatar-group -space-x-4 mt-5 rtl:space-x-reverse">
                 <div className="avatar">
                   <div className="w-[32px] h-[32px] rounded-full">

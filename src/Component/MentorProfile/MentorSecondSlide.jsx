@@ -4,7 +4,7 @@ const MentorSecondSlide = () => {
   return (
     <div>
       <div
-        className="bg-no-repeat px-5 py-3 w-[450px] h-[250px] bg-[#565fc9]"
+        className="bg-no-repeat px-5 py-3 w-[393px] h-[213px] bg-[#565fc9]"
         style={{
           backgroundImage:
             "url('https://i.ibb.co/RS71m1W/unsplash-rlb-G0p-n-QOU.png')",

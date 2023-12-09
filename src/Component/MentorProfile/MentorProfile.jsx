@@ -25,8 +25,8 @@ const MentorProfile = () => {
         </div>
 
         {/* second content */}
-        <div className="ml-[210px] mt-[40px] ">
-          <div className="mt-[32px]"> 
+        <div className="mt-[35px] ">
+          <div className=""> 
           <MentorSecondSlide></MentorSecondSlide>
           </div>
         </div>

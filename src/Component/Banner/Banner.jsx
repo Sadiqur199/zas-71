@@ -19,7 +19,7 @@ const Banner = () => {
               Popular and trending
               </p>
               <div>
-              <button class="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
+              <button className="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
                   Join This Course
                 </button>
               </div>
@@ -80,7 +80,7 @@ const Banner = () => {
               Popular and trending
               </p>
               <div>
-              <button class="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
+              <button className="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
                   Join This Course
                 </button>
               </div>
@@ -111,7 +111,7 @@ const Banner = () => {
               Popular and trending
               </p>
               <div>
-              <button class="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
+              <button className="btn border-none w-[188px] h-[44px] bg-[#FF2E63] text-white mr-5">
                   Join This Course
                 </button>
               </div>

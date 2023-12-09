@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
+import MentorSecondSlide from "./MentorSecondSlide";
 
 
 const MentorProfile = () => {
@@ -18,15 +19,15 @@ const MentorProfile = () => {
           <p className="text-sm text-gray-400">
             Enrolled 12 dec | Completed 31 Dec
           </p>
-          <div>
+          <div className="mt-[32px]">
             <h1>sadiq</h1>
           </div>
         </div>
 
         {/* second content */}
         <div className="ml-[210px] mt-[40px] ">
-          <div>
-            <h1>Sadiq</h1>
+          <div className="mt-[32px]"> 
+          <MentorSecondSlide></MentorSecondSlide>
           </div>
         </div>
       </div>

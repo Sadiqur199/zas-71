@@ -3,7 +3,7 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div>
+    <div className='mt-[45px]'>
       <MentorProfile></MentorProfile>
     </div>
   );

@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaStarHalfStroke } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
 
 
 const MentorFirstSlide = () => {
+
+  const [question, setQuestions] = useState([
+    { id: 1, isContentVisible: false },
+    { id: 2, isContentVisible: false },
+    { id: 3, isContentVisible: false },
+    { id: 4, isContentVisible: false },
+    // Add more questions as needed
+  ]);
+
+  const toggleContent = (questionId) => {
+    setQuestions((prevQuestions) =>
+      prevQuestions.map((question) =>
+        question.id === questionId
+          ? { ...question, isContentVisible: !question.isContentVisible }
+          : question
+      )
+    );
+  };
+
+
   return (
     <div>
        <div className="flex">
@@ -14,7 +34,7 @@ const MentorFirstSlide = () => {
              <p className="font-bold text-xl text-[#383838]">Mentor Name</p>
              <p className="text-[#898989] text-sm">Subject name</p>
              </div>
-              <p className="flex text-xs mt-1 ">
+              <p className="flex text-xs mt-1 ml-[150px]">
                 <span>
                   <FaStarHalfStroke className="text-blue-500 mr-1" size={15} />
                 </span>

@@ -47,6 +47,7 @@ const MentorSecondSlide = () => {
             <img
               src="https://i.ibb.co/g44ytXy/unsplash-o-l-Lsd-VTxak.png"
               alt=""
+              className="w-[48px] h-[50px]"
             />
             <div className="ml-3">
               <p>09 to 12 to enrollment</p>
@@ -75,6 +76,7 @@ const MentorSecondSlide = () => {
             <img
               src="https://i.ibb.co/g44ytXy/unsplash-o-l-Lsd-VTxak.png"
               alt=""
+              className="w-[48px] h-[50px]"
             />
             <div className="ml-3">
               <p>09 to 12 to enrollment</p>
@@ -103,6 +105,7 @@ const MentorSecondSlide = () => {
             <img
               src="https://i.ibb.co/g44ytXy/unsplash-o-l-Lsd-VTxak.png"
               alt=""
+              className="w-[48px] h-[50px]"
             />
             <div className="ml-3">
               <p>09 to 12 to enrollment</p>
@@ -123,6 +126,7 @@ const MentorSecondSlide = () => {
             <a className="link text-[#34A770] mt-1">Enroll Now</a>
           </div>
         </div>
+        <hr className="mt-3"/>
       </div>
     </div>
   );

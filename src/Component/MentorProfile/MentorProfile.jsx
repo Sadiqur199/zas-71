@@ -1,12 +1,13 @@
 import React from "react";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import MentorSecondSlide from "./MentorSecondSlide";
+import MentorFirstSlide from "./MentorFirstSlide";
 
 
 const MentorProfile = () => {
   return (
     <div>
-      <div className="flex">
+      <div className="flex justify-between">
       <div className="w-[667px]h-[375px]">
         <a href="/" className="flex">
             <span>
@@ -20,7 +21,7 @@ const MentorProfile = () => {
             Enrolled 12 dec | Completed 31 Dec
           </p>
           <div className="mt-[32px]">
-            <h1>sadiq</h1>
+            <MentorFirstSlide></MentorFirstSlide>
           </div>
         </div>
 

@@ -1,27 +1,12 @@
-import React, { useState } from "react";
+'use client'
+import React from "react";
 import { FaStarHalfStroke } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
+import InstructionSection from "./InstructionSection";
 
 
 const MentorFirstSlide = () => {
 
-  const [question, setQuestions] = useState([
-    { id: 1, isContentVisible: false },
-    { id: 2, isContentVisible: false },
-    { id: 3, isContentVisible: false },
-    { id: 4, isContentVisible: false },
-    // Add more questions as needed
-  ]);
-
-  const toggleContent = (questionId) => {
-    setQuestions((prevQuestions) =>
-      prevQuestions.map((question) =>
-        question.id === questionId
-          ? { ...question, isContentVisible: !question.isContentVisible }
-          : question
-      )
-    );
-  };
 
 
   return (
@@ -90,6 +75,10 @@ const MentorFirstSlide = () => {
             allowFullScreen
           ></iframe>
         </div>
+         </div>
+
+         <div className="mt-10 ">
+          <InstructionSection></InstructionSection>
          </div>
     </div>
   );

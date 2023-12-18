@@ -3,7 +3,7 @@ import React from 'react';
 
 const page = () => {
   return (
-      <div className='w-auto h-[966px]'>
+      <div className='w-auto h-[800px]'>
         <Login />
       </div>
   );

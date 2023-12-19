@@ -1,12 +1,12 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
-const Login = () => {
+const SignUp = () => {
   return (
     <div>
       <div className="flex">
         <div className="bg-[#5A5BCB] w-[600px] text-white h-[966px]">
-          <p className="p-24 text-justify">
+          <p className="p-20 text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             perspiciatis nulla, distinctio id fugit accusamus ipsa aperiam sit,
             ad quasi illo assumenda cumque ex, laborum saepe ullam praesentium
@@ -16,7 +16,7 @@ const Login = () => {
           </p>
           <img
             className="w-[557px] h-[557px] mt-[50px]"
-            src="https://i.ibb.co/k0vMsFk/bitcoin.png"
+            src="https://i.ibb.co/chbkbX9/Sign-up-removebg-preview.png"
             alt=""
           />
         </div>
@@ -89,4 +89,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

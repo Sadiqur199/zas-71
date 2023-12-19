@@ -3,7 +3,7 @@ import React from "react";
 const ProfileHeader = () => {
   return (
     <div>
-      <div className="flex mx-auto  w-[1200px] justify-between">
+      <div className="flex mx-auto  h-[24px] w-[1200px] justify-between">
         <div>
           <ul className="flex">
             <li className="mt-2">

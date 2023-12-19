@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "../globals.css";
 import ProfileHeader from "@/Component/ProfileHeader/ProfileHeader";
+import ProfileSecondHeader from "@/Component/ProfileHeader/ProfileSecondHeader";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,6 +18,7 @@ export default function ProfileLayout({ children }) {
         <div className="">
           <div>
             <ProfileHeader></ProfileHeader>
+            <ProfileSecondHeader></ProfileSecondHeader>
           </div>
           <div>
             {children}

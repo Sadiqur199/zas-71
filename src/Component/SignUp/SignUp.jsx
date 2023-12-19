@@ -15,7 +15,7 @@ const SignUp = () => {
             tempora!
           </p>
           <img
-            className="w-[557px] h-[557px] mt-[50px]"
+            className="w-[557px] h-[557px] mt-[110px]"
             src="https://i.ibb.co/chbkbX9/Sign-up-removebg-preview.png"
             alt=""
           />
@@ -27,7 +27,7 @@ const SignUp = () => {
           </div>
 
           <div className=" w-[414px]">
-            <div className="mt-[100px] ">
+            <div className="mt-[100px] mb-5 ">
               <a href="/">
                 <img
                   className="h-[24px] w-[96px] mt-2"
@@ -55,7 +55,7 @@ const SignUp = () => {
                 </div>
                 <input
                   type="email"
-                  placeholder="Enter Your Username"
+                  placeholder="Enter Your Email"
                   className="input input-bordered w-[414px] h-[40px]"
                 />
               </label>
@@ -66,7 +66,7 @@ const SignUp = () => {
                 </div>
                 <input
                   type="text"
-                  placeholder="Enter Your Username"
+                  placeholder="Enter Your FullName"
                   className="input input-bordered w-[414px] h-[40px]"
                 />
               </label>
@@ -77,7 +77,7 @@ const SignUp = () => {
                 </div>
                 <input
                   type="number"
-                  placeholder="Enter Your Username"
+                  placeholder="Enter Your MobileNo"
                   className="input input-bordered w-[414px] h-[40px]"
                 />
               </label>
@@ -99,7 +99,7 @@ const SignUp = () => {
                 </div>
                 <input
                   type="password"
-                  placeholder="Enter Your Password"
+                  placeholder="Enter Your ReTypePassword"
                   className="input input-bordered w-[414px] h-[40px]"
                 />
               </label>

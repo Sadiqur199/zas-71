@@ -15,7 +15,7 @@ const Login = () => {
             tempora!
           </p>
           <img
-            className="w-[557px] h-[557px] mt-[50px]"
+            className="w-[557px] h-[557px] mt-[40px]"
             src="https://i.ibb.co/k0vMsFk/bitcoin.png"
             alt=""
           />
@@ -27,7 +27,7 @@ const Login = () => {
           </div>
 
           <div className=" w-[414px]">
-            <div className="mt-[260px] ">
+            <div className="mt-[260px] mb-5">
               <a href="/">
                 <img
                   className="h-[24px] w-[96px] mt-2"

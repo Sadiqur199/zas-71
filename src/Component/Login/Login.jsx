@@ -78,7 +78,7 @@ const Login = () => {
             </form>
             <div>
               <p className="flex justify-between w-[414px] mt-5 "><span className="text-gray-500 text-sm">Not a account in Zas71?</span>  <span>
-                <Link href='' className="text-sm text-[#5A5BCB]">Register Now</Link>
+                <Link href='/signup' className="text-sm text-[#5A5BCB]">Register Now</Link>
                 </span>
                 </p>
             </div>

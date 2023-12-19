@@ -27,7 +27,7 @@ const SignUp = () => {
           </div>
 
           <div className=" w-[414px]">
-            <div className="mt-[260px] ">
+            <div className="mt-[100px] ">
               <a href="/">
                 <img
                   className="h-[24px] w-[96px] mt-2"
@@ -51,34 +51,64 @@ const SignUp = () => {
 
               <label className="form-control  w-[414px]">
                 <div className="label">
-                  <span className="label-text-alt">Password</span>
-                  <span className="label-text-alt text-[#5A5BCB]">
-                    Forget Password
-                  </span>
+                  <span className="label-text">Email</span>
+                </div>
+                <input
+                  type="email"
+                  placeholder="Enter Your Username"
+                  className="input input-bordered w-[414px] h-[40px]"
+                />
+              </label>
+
+              <label className="form-control  w-[414px]">
+                <div className="label">
+                  <span className="label-text">FullName</span>
                 </div>
                 <input
                   type="text"
+                  placeholder="Enter Your Username"
+                  className="input input-bordered w-[414px] h-[40px]"
+                />
+              </label>
+
+              <label className="form-control  w-[414px]">
+                <div className="label">
+                  <span className="label-text">MobileNo</span>
+                </div>
+                <input
+                  type="number"
+                  placeholder="Enter Your Username"
+                  className="input input-bordered w-[414px] h-[40px]"
+                />
+              </label>
+
+              <label className="form-control  w-[414px]">
+                <div className="label">
+                  <span className="label-text-alt">Password</span>
+                </div>
+                <input
+                  type="password"
                   placeholder="Enter Your Password"
                   className="input input-bordered w-[414px] h-[40px]"
                 />
-                <div className="label">
-                  <div className="form-control">
-                    <label className="label cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked=""
-                        className="checkbox mr-[2px]"
-                      />
-                      <span className="label-text ml-1">Remember me</span>
-                    </label>
-                  </div>
-                </div>
               </label>
-              <input type="submit" value="Signin"  className="bg-[#5A5BCB] text-white w-[181px] h-[38px] rounded mt-8"/>
+
+              <label className="form-control  w-[414px]">
+                <div className="label">
+                  <span className="label-text-alt">Retype Password</span>
+                </div>
+                <input
+                  type="password"
+                  placeholder="Enter Your Password"
+                  className="input input-bordered w-[414px] h-[40px]"
+                />
+              </label>
+
+              <input type="submit" value="SignUp"  className="bg-[#5A5BCB] text-white w-[181px] h-[38px] rounded mt-8"/>
             </form>
             <div>
-              <p className="flex justify-between w-[414px] mt-5 "><span className="text-gray-500 text-sm">Not a account in Zas71?</span>  <span>
-                <Link href='' className="text-sm text-[#5A5BCB]">Register Now</Link>
+              <p className="flex justify-between w-[414px] mt-5 "><span className="text-gray-500 text-sm">Already have an account?</span>  <span>
+                <Link href='/login' className="text-sm text-[#5A5BCB]">SignIn Now</Link>
                 </span>
                 </p>
             </div>

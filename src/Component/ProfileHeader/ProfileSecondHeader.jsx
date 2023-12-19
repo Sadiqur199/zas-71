@@ -24,10 +24,9 @@ const ProfileSecondHeader = () => {
           <h1 className='border bg-[#9CA3AF] text-white h-[30px] w-[30px] rounded-full text-center'>04</h1>
           <p className='mt-[5px] text-sm text-gray-600 ml-3'>Overview</p>
         </div>
-        
+
       </div>
     </div>
   );
 };
-
 export default ProfileSecondHeader;

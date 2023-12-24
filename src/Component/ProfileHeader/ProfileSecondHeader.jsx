@@ -3,7 +3,7 @@ import React from 'react';
 const ProfileSecondHeader = () => {
   return (
     <div className='w-[832px] h-[50px] mx-auto mt-[80px]'>
-      <div className='grid grid-cols-4'>
+      <div className='grid grid-cols-4 gap-20'>
 
         <div className='flex w-[140px] h-[30px]'>
           <h1 className='border bg-[#9CA3AF] text-white h-[30px] w-[30px] rounded-full text-center'>01</h1>

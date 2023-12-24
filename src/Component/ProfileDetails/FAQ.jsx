@@ -1,5 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { CiCirclePlus } from "react-icons/ci";
+import { CiCircleMinus } from "react-icons/ci";
+
+
 
 const FAQ = () => {
   const [question, setQuestions] = useState([
@@ -38,10 +42,10 @@ const FAQ = () => {
               }}
             >
               <button
-                className="h-[20px] w-[20px] mr-2 mt-1  rounded-full border border-gray-500"
+                className="h-[20px] w-[20px] mr-2 mt-1"
                 onClick={() => toggleContent(question[0].id)}
               >
-                {question[0].isContentVisible ? "-" : "+"}
+                {question[0].isContentVisible ? <CiCircleMinus size={24}/> : <CiCirclePlus size={24}/>}
               </button>
             </div>
             <div>
@@ -76,10 +80,10 @@ const FAQ = () => {
               }}
             >
               <button
-                className="h-[20px] w-[20px] mr-2 mt-1  rounded-full border border-gray-500"
+                className="h-[20px] w-[20px] mr-2 mt-1 "
                 onClick={() => toggleContent(question[1].id)}
               >
-                {question[1].isContentVisible ? "-" : "+"}
+                {question[1].isContentVisible ?<CiCircleMinus size={24}/> : <CiCirclePlus size={24}/>}
               </button>
             </div>
             <div>
@@ -113,10 +117,10 @@ const FAQ = () => {
               }}
             >
               <button
-                className="h-[20px] w-[20px] mr-2 mt-1  rounded-full border border-gray-500"
+                className="h-[20px] w-[20px] mr-2 mt-1 "
                 onClick={() => toggleContent(question[2].id)}
               >
-                {question[2].isContentVisible ? "-" : "+"}
+                {question[2].isContentVisible ?<CiCircleMinus size={24}/> : <CiCirclePlus size={24}/>}
               </button>
             </div>
             <div>
@@ -150,10 +154,10 @@ const FAQ = () => {
               }}
             >
               <button
-                className="h-[20px] w-[20px] mr-2 mt-1  rounded-full border border-gray-500"
+                className="h-[20px] w-[20px] mr-2 mt-1 "
                 onClick={() => toggleContent(question[3].id)}
               >
-                {question[3].isContentVisible ? "-" : "+"}
+                {question[3].isContentVisible ? <CiCircleMinus size={24}/> : <CiCirclePlus size={24}/>}
               </button>
             </div>
             <div>

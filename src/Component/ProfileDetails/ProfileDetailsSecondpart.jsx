@@ -1,4 +1,5 @@
 import React from 'react';
+import FAQ from './FAQ';
 
 const ProfileDetailsSecondpart = () => {
   return (
@@ -16,6 +17,11 @@ const ProfileDetailsSecondpart = () => {
          <p className='mt-3 text-xs'>Email:ahsanulakib@gmail.com</p>
          <p className='mt-3 text-xs'>Phone:75216858136</p>
         </div>
+      </div>
+
+      <div>
+        <h1 className='font-bold mt-5 mb-3'>FAQ</h1>
+        <FAQ></FAQ>
       </div>
     </div>
   );

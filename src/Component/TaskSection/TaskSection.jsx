@@ -2,6 +2,8 @@ import React from "react";
 import { IoIosFlag } from "react-icons/io";
 import { GoClockFill } from "react-icons/go";
 import FAQ from "../ProfileDetails/FAQ";
+import { IoLogoYoutube } from "react-icons/io";
+
 
 
 
@@ -51,10 +53,15 @@ const TaskSection = () => {
 
 
       {/* second card */}
-      <div>
+      <div className="w-[400px] h-[150px] bg-[#F4F4F4]">
+        <div>
+        <IoLogoYoutube />
+          
+        </div>
+      </div>
+      </div>
 
-      </div>
-      </div>
+      {/* Task Section Second Part */}
       <div>
       <div className='bg-[#5A5BCB] h-auto rounded '>
       <div className=" p-5 text-white">

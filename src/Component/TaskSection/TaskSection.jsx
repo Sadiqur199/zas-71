@@ -11,6 +11,7 @@ const TaskSection = () => {
   return (
     <div className="w-[832px] mx-auto mt-5 flex">
       <div>
+        <h1 className="my-5 font-semibold">Complete minimum one task</h1>
       <div className="bg-[#F4F4F4] w-[400px] h-[150px] rounded">
         <div className="flex p-4">
           <h1>Introduction to Laravel 8.0</h1>
@@ -53,13 +54,23 @@ const TaskSection = () => {
 
 
       {/* second card */}
-      <div className="w-[400px] h-[150px] bg-[#F4F4F4]">
-        <div>
-        <IoLogoYoutube />
-          
+      <div className="w-[400px] h-[150px] bg-[#F4F4F4] mt-10">
+        <div className="flex justify-between p-4">
+        <IoLogoYoutube size={40} className="text-[#FF3D00]"/>
+          <div className="mt-1 ml-5">
+           <h1 className="font-bold">Watch a full video</h1>
+           <p className="text-sm text-gray-400 my-3">Yes, you can try us for free for 30 days. If you want, we’ll provide </p>
+            <a href="" className="font-bold text-xl text-[#5A5BCB] ">Watch</a>
+          </div>
         </div>
       </div>
       </div>
+
+      {/* Third Part */}
+      <div>
+      
+      </div>
+
 
       {/* Task Section Second Part */}
       <div>

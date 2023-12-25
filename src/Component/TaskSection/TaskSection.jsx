@@ -11,7 +11,7 @@ const TaskSection = () => {
   return (
     <div className="w-[832px] mx-auto mt-5 flex">
       <div>
-        <h1 className="my-5 font-semibold">Complete minimum one task</h1>
+        <h1 className="mb-5 font-semibold">Complete minimum one task</h1>
       <div className="bg-[#F4F4F4] w-[400px] h-[150px] rounded">
         <div className="flex p-4">
           <h1>Introduction to Laravel 8.0</h1>
@@ -64,16 +64,42 @@ const TaskSection = () => {
           </div>
         </div>
       </div>
-      </div>
+
 
       {/* Third Part */}
       <div>
-      
+      <h1 className="font-semibold my-5">Facebook Likes</h1>
+      <div className="w-[400px] h-[80px] bg-[#F4F4F4] p-4">
+        <div className="flex">
+          <img className="w-[40px] h-[40px]" src="https://i.ibb.co/ysbKn8y/YouTube.png" alt="" />
+          <div className=" ml-5">
+            <h1 className="font-bold">Page Name goes here</h1>
+            <a href="" className="font-semibold text-sm text-[#5A5BCB] ">Like Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[400px] h-[80px] bg-[#F4F4F4] p-4 mt-5">
+        <div className="flex">
+          <img className="w-[40px] h-[40px]" src="https://i.ibb.co/ysbKn8y/YouTube.png" alt="" />
+          <div className=" ml-5">
+            <h1 className="font-bold">Page Name goes here</h1>
+            <a href="" className="font-semibold text-sm text-[#5A5BCB] ">Like Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[400px] mt-5 flex justify-between mb-5">
+       <button className="w-[181px] bg-[#9CA3AF] rounded h-[38px] text-white">Previous</button>
+       <button className="w-[181px] bg-[#5A5BCB] rounded h-[38px] text-white">Next</button>
+      </div>
+      </div>
       </div>
 
 
+
       {/* Task Section Second Part */}
-      <div>
+      <div className="ml-[70px] mt-3">
       <div className='bg-[#5A5BCB] h-auto rounded '>
       <div className=" p-5 text-white">
          <div className=' flex '>
@@ -88,7 +114,10 @@ const TaskSection = () => {
          <p className='mt-3 text-xs'>Phone:75216858136</p>
         </div>
       </div>
-        <FAQ></FAQ>
+       <div className="mt-5">
+       <h1 className='font-bold mt-5 mb-3'>FAQ</h1>
+       <FAQ></FAQ>
+       </div>
       </div>
       
     </div>

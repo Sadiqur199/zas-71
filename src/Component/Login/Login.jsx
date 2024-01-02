@@ -1,7 +1,53 @@
+'use client'
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Login = () => {
+
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  useEffect(()=>{
+    const UserName = localStorage.getItem('username');
+    const Password = localStorage.getItem('password')
+
+    if(UserName){
+      setUsername(UserName)
+    }
+
+    if(Password){
+      setPassword(Password)
+    }
+  },[])
+
+  const handleLogin = async (event) =>{
+    event.preventDefault();
+
+    try{
+      const response = await fetch("/api/login",{
+        method:"POST",
+        headers:{
+          "Content-Type" : "application/json",
+        },
+        body:JSON.stringify({
+          username,
+          password,
+        })
+      })
+
+      const data = await response.json();
+      console.log(data);
+
+      if(data.status === "success"){
+        console.log("Redirect Home Page")
+      }
+    }
+    catch(error){
+      console.log("Error Message",error)
+    }
+  }
+
+
   return (
     <div>
       <div className="flex">
@@ -37,7 +83,8 @@ const Login = () => {
               </a>
               <p className="text-[#121212] font-bold">Welcome to ZAS71</p>
             </div>
-            <form action="">
+
+            <form onSubmit={handleLogin}>
               <label className="form-control  w-[414px]">
                 <div className="label">
                   <span className="label-text">UserName</span>
@@ -46,6 +93,9 @@ const Login = () => {
                   type="text"
                   placeholder="Enter Your Username"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  required
                 />
               </label>
 
@@ -57,9 +107,12 @@ const Login = () => {
                   </span>
                 </div>
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Enter Your Password"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
                 />
                 <div className="label">
                   <div className="form-control">

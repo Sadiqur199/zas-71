@@ -1,6 +1,7 @@
 import SignUp from "@/Component/SignUp/SignUp";
 import React from "react";
 
+
 const page = () => {
   return (
     <div>

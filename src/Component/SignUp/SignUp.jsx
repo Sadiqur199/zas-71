@@ -1,7 +1,48 @@
+'use client'
+import React, { useState } from 'react';
 import Link from 'next/link';
-import React from 'react';
 
 const SignUp = () => {
+const [formData , setFormData] = useState({
+  username:'',
+  email:'',
+  fullName:'',
+  mobileNo:'',
+  password:'',
+  retypePassword:'',
+})
+
+const handleSubmit = async (e) =>{
+  e.preventDefault();
+
+  try{
+    const response = await fetch('/api/signup',{
+      method:'POST',
+      headers:{
+        'Content-Type' : 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+     if(response.ok){
+      const data = await response.json();
+      localStorage.setItem('user',JSON.stringify(data.user));
+      localStorage.setItem("token",data.token)
+     }
+
+     else{
+      const errorData = await response.json();
+      console.log(errorData.message)
+     }
+  }
+
+  catch(error){
+    console.log('Error message',error)
+  }
+}
+
+const handleChange = (event) => {
+  setFormData({...formData,[event.target.name]: event.target.value})
+}
   return (
     <div>
       <div className="flex">
@@ -37,15 +78,19 @@ const SignUp = () => {
               </a>
               <p className="text-[#121212] font-bold">Welcome to ZAS71</p>
             </div>
-            <form action="">
+            
+            <form onSubmit={handleSubmit}>
               <label className="form-control  w-[414px]">
                 <div className="label">
                   <span className="label-text">UserName</span>
                 </div>
                 <input
                   type="text"
+                  name="username"
                   placeholder="Enter Your Username"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.username}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -55,8 +100,11 @@ const SignUp = () => {
                 </div>
                 <input
                   type="email"
+                  name="email"
                   placeholder="Enter Your Email"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -66,8 +114,11 @@ const SignUp = () => {
                 </div>
                 <input
                   type="text"
+                  name="fullName"
                   placeholder="Enter Your FullName"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.fullName}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -77,8 +128,11 @@ const SignUp = () => {
                 </div>
                 <input
                   type="number"
+                  name="mobileNo"
                   placeholder="Enter Your MobileNo"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.mobileNo}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -88,8 +142,11 @@ const SignUp = () => {
                 </div>
                 <input
                   type="password"
+                  name="password"
                   placeholder="Enter Your Password"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.password}
+                  onChange={handleChange}
                 />
               </label>
 
@@ -99,18 +156,23 @@ const SignUp = () => {
                 </div>
                 <input
                   type="password"
+                  name="retypePassword"
                   placeholder="Enter Your ReTypePassword"
                   className="input input-bordered w-[414px] h-[40px]"
+                  value={formData.retypePassword}
+                  onChange={handleChange}
                 />
               </label>
 
-              <input type="submit" value="SignUp"  className="bg-[#5A5BCB] text-white w-[181px] h-[38px] rounded mt-8"/>
+              <input type="submit" value="SignUp" className="bg-[#5A5BCB] text-white w-[181px] h-[38px] rounded mt-8"/>
             </form>
             <div>
-              <p className="flex justify-between w-[414px] mt-5 "><span className="text-gray-500 text-sm">Already have an account?</span>  <span>
-                <Link href='/login' className="text-sm text-[#5A5BCB]">SignIn Now</Link>
+              <p className="flex justify-between w-[414px] mt-5 ">
+                <span className="text-gray-500 text-sm">Already have an account?</span>  
+                <span>
+                  <Link href='/login' className="text-sm text-[#5A5BCB]">SignIn Now</Link>
                 </span>
-                </p>
+              </p>
             </div>
           </div>
         </div>

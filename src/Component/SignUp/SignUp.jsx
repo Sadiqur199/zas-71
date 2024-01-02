@@ -91,6 +91,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.username}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
@@ -105,6 +106,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
@@ -119,6 +121,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.fullName}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
@@ -133,6 +136,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.mobileNo}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
@@ -147,6 +151,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.password}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
@@ -161,6 +166,7 @@ const handleChange = (event) => {
                   className="input input-bordered w-[414px] h-[40px]"
                   value={formData.retypePassword}
                   onChange={handleChange}
+                  required
                 />
               </label>
 
